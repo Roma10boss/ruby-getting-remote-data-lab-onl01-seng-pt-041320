@@ -17,3 +17,18 @@ end
  
 response_body = GetRequester.new.get_response_body
 puts response_body
+
+class GetPrograms
+ 
+  URL = "http://data.cityofnewyork.us/resource/uvks-tn5n.json"
+ 
+  def get_programs
+    uri = URI.parse(URL)
+    response = Net::HTTP.get_response(uri)
+    response.body
+  end
+ 
+end
+ 
+programs = GetPrograms.new.get_programs
+puts programs
