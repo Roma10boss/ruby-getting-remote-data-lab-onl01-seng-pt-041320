@@ -5,7 +5,7 @@ require 'json'
  
 class GetRequester
  get_requester = GetRequester.new('https://learn-co-curriculum.github.io/json-site-example/endpoints/people.json')
- get_requester.parse_json
+ #get_requester.parse_json
   #URL = "https://learn-co-curriculum.github.io/json-site-example/endpoints/people.json"
  
   def get_response_body
