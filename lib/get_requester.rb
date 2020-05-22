@@ -15,5 +15,5 @@ class GetRequester
  
 end
  
-programs = GetRequester.new.get_response_body
-puts body
+response_body = GetRequester.new.get_response_body
+puts get_response_body
