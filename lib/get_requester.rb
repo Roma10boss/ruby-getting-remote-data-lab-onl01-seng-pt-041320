@@ -14,3 +14,6 @@ class GetRequester
   end
  
 end
+ 
+programs = GetRequester.new.get_programs
+puts programs
