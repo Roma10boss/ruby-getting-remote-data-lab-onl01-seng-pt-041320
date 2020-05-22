@@ -15,5 +15,5 @@ class GetRequester
  
 end
  
-response_body = GetRequester.new.get_response_body()
+response_body = GetRequester.new.get_response_body(uri)
 puts response_body
